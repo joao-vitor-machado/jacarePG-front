@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Dogica Regular';
+    src        : url(../fonts/dogica/TTF/dogicapixelbold.ttf) format('ttf'),
+        url(../fonts/dogica/dogicapixelbold.woff) format('woff');
+}
+
+body{
+    width: 100%;
+}
+
+* {
+    font-family: 'Dogica Regular';
+    line-height: 1.2em;
+    padding        : 0;
+    margin         : 0;
+    font-style     : unset;
+    text-decoration: none;
+
+}
+
+a {
+    color: unset;
+}
+
+.titulo {
+    font-size : var(--header2);
+    text-align: center;
+}

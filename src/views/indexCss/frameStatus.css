@@ -1,0 +1,69 @@
+
+:root{
+    --green: #026D2D;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.status-screen{
+    background-image: url(../shared/images/gif_bg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.conteudo{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 3em;
+    
+}
+
+.bem-vindos{
+    background-color: var(--green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20em;
+}
+
+.status-page-button{
+    background-color: var(--green);
+    height: 6em;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.status-page-button:hover{
+    color: white;
+    cursor    : pointer;
+    transform : scale(1.01);
+    transition: all 0.5ms;
+}
+
+.icon{
+    height: 4em;
+}
+
+.novidades{
+    color: white;
+}
+
+.novidades-content{
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
