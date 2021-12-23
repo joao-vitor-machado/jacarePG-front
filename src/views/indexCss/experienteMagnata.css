@@ -1,0 +1,41 @@
+.experiente-magnata-screen{
+    height: 105vh;
+    background-image: url(../shared/images/bg_swamp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.images-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.images-div img{
+    height: 70vh;
+}
+
+.img-label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name{
+    margin-top: 10px;
+}
+
+#text-magnata{
+    background-image: url(../shared/images/textures/silver.jpg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#text-experiente{
+    background-image: url(../shared/images/textures/copper.jpg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}

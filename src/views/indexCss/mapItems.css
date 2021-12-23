@@ -1,0 +1,15 @@
+.map-items-screen{
+    height: 100vh;
+    background-image: url(../shared/images/treasure_room.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map-items-screen h1{
+    color: white;
+    font-size: 5em;
+    margin-top: 20px;
+}

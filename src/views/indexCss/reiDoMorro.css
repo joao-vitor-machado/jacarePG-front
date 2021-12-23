@@ -1,0 +1,86 @@
+#rei-do-morro{
+    height: 100vh;
+    background-image: url(../shared/images/bg_swamp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#rei-do-morro h3{
+    font-size: 3em;
+    background-image: url(../shared/images/textures/gold.jpg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 20px;
+}
+
+.content-rei-do-morro{
+    margin-top: 20px;
+    display: grid;
+    row-gap: 5vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    padding: auto;
+    /* max-height: 30vh; */
+}
+
+.content-rei-do-morro img{
+    max-height: 13em;
+    min-height: 13em;
+    width: 25vw;
+}
+
+.carousel-control-prev{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    max-width: 5vw;
+}
+
+.carousel-control-next{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    max-width: 5vw;
+}
+
+.img-label{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.img-label h4{
+    margin-top: 10px;
+}
+
+.blocked-screen{
+    position:fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    height:100%;
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.8);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-croc{
+    height: 60vh;
+}
+
+.close-button{
+    margin-top: 20px;
+    padding: 1% 3%;
+    color: white;
+    background-color: red;
+    border: none;
+}
