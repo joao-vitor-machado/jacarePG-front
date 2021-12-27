@@ -14,22 +14,24 @@
 
     <title>JacarePG</title>
 </head>
-<body data-bs-spy="scroll" data-bs-target="#nav" data-bs-offset="0" tabindex="0">
-    <nav id="nav" class="navbar">
-        <div id="divNav">
-        <a href="#inicial"><div class="navigator" id="nav1"></div></a>
-        <a href="#experienteMagnata"><div class="navigator" id="nav2"></div></a>
-        <a href="#rei-do-morro"><div class="navigator" id="nav3"></div></a>
-        <a href="#mapItems"><div class="navigator" id="nav4"></div></a>
-        </div>
-        <div id="backgroundLine"></div>
-    </nav>
+<body>
+    
     <div class="container-fluid status-screen">
 
-        <div class="container-fluid bem-vindos">
+        <nav id="nav" class="navbar">
+            <div id="divNav">
+            <a href="#inicial"><div class="navigator" id="nav1"></div></a>
+            <a href="#experienteMagnata"><div class="navigator" id="nav2"></div></a>
+            <a href="#rei-do-morro"><div class="navigator" id="nav3"></div></a>
+            <a href="#mapItems"><div class="navigator" id="nav4"></div></a>
+            </div>
+            <div id="backgroundLine"></div>
+        </nav>
+
+        <div class="container-fluid bem-vindos" id="inicial">
             <h3>seja bem vindo, fulano de tal</h3>
         </div>
-        <div class="container conteudo" id="inicial">
+        <div class="container conteudo" >
             
             <div class="col-5 buttons">
                 <button class="status-page-button btn">
@@ -81,7 +83,7 @@
     <div class="container-fluid rei-do-morro-screen" id="rei-do-morro">
         <h3><b>REI DO MORRO</b></h3>
 
-        <div id="reiDoMorroCarrousel" class="carousel slide w-100 d-block" data-bs-touch="false" data-bs-interval="false">
+        <div id="reiDoMorroCarrousel" class="carousel slide  d-block col-11" data-bs-touch="false" data-bs-interval="false">
             <div class="carousel-inner" id="containerCarrousel">
 
             </div>
@@ -103,7 +105,7 @@
     <!-- MAP ITEMS -->
     <div class="container-fluid map-items-screen" id="mapItems">
         <h1>MAP ITEMS</h1>
-        <div id="mapItemsCarousel" class="carousel slide w-100 d-block" data-bs-touch="false" data-bs-interval="false">
+        <div id="mapItemsCarousel" class="carousel slide d-block col-11" data-bs-touch="false" data-bs-interval="false">
             <div class="carousel-inner" id="containerCarrouselMapItems">
 
             </div>
