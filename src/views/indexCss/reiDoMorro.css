@@ -14,6 +14,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 20px;
+    margin-bottom: 5%;
 }
 
 .content-rei-do-morro{
@@ -27,20 +28,22 @@
 }
 
 .content-rei-do-morro img{
-    max-height: 13em;
-    min-height: 13em;
-    width: 25vw;
+    max-height: 20vh;
+    min-height: 20vh;
+    width: 20vw;
 }
 
 .carousel-control-prev{
-    min-height: 75vh;
+    /* min-height: 75vh; */
+    height: inherit;
     display: flex;
     align-items: center;
     max-width: 5vw;
 }
 
 .carousel-control-next{
-    min-height: 75vh;
+    /* min-height: 75vh; */
+    height: inherit;
     display: flex;
     align-items: center;
     max-width: 5vw;

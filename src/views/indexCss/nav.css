@@ -1,0 +1,9 @@
+@import url(./frameStatus.css);
+
+.nav-clicked{
+    border: 5px solid black;
+}
+
+.nav-unclicked{
+    border: none;
+}

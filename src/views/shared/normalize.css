@@ -29,12 +29,14 @@ a {
 }
 
 #nav{
-    
     position: fixed;
     right: 20px;
     top: 50%;
     transform: translateY(-50%);
     height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #divNav{

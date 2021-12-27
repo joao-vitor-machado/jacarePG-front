@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./indexCss/experienteMagnata.css">
     <link rel="stylesheet" href="./indexCss/reiDoMorro.css">
     <link rel="stylesheet" href="./indexCss/mapItems.css">
+    <link rel="stylesheet" href="./indexCss/nav.css">
 
     <title>JacarePG</title>
 </head>
@@ -33,24 +34,26 @@
         </div>
         <div class="container conteudo" >
             
-            <div class="col-5 buttons">
-                <button class="status-page-button btn">
-                    <h6>12</h6>
-                    <h6>NEW MESSAGES</h6>
-                    <span><img class="img-fluid icon" src="../views/shared/images/icons/message.png" alt=""></span>
-                </button>
-                <button class="status-page-button btn">
-                    <h6>124</h6>
-                    <h6>PLAYERS</h6>
-                    <span><img class="img-fluid icon" src="../views/shared/images/icons/wihite_crocodile.png" alt=""></span>
-                </button>
-                <button class="status-page-button btn">
-                    <h6>&nbsp&nbsp&nbsp</h6>
-                    <h6>QUERO JOGAR</h6>
-                    <span><img class="img-fluid icon" src="../views/shared/images/icons/white-controle-de-video-game.png" alt=""></span>
-                </button>
+            <div id="buttonsDiv" class="col-5 ">
+                <div id="buttons" class="buttons">
+                    <button class="status-page-button btn">
+                        <h6>12</h6>
+                        <h6>NEW MESSAGES</h6>
+                        <span><img class="img-fluid icon" src="../views/shared/images/icons/message.png" alt=""></span>
+                    </button>
+                    <button class="status-page-button btn">
+                        <h6>124</h6>
+                        <h6>PLAYERS</h6>
+                        <span><img class="img-fluid icon" src="../views/shared/images/icons/wihite_crocodile.png" alt=""></span>
+                    </button>
+                    <button id="queroJogar" class="status-page-button btn">
+                        <h6>&nbsp&nbsp&nbsp</h6>
+                        <h6>QUERO JOGAR</h6>
+                        <span><img class="img-fluid icon" src="../views/shared/images/icons/white-controle-de-video-game.png" alt=""></span>
+                    </button>
+                </div>
+    
             </div>
-
             <div class="col-5 novidades">
                 <h3>NOVIDADES</h3>
                 <div class="container-fluid novidades-content"></div>
@@ -83,7 +86,7 @@
     <div class="container-fluid rei-do-morro-screen" id="rei-do-morro">
         <h3><b>REI DO MORRO</b></h3>
 
-        <div id="reiDoMorroCarrousel" class="carousel slide  d-block col-11" data-bs-touch="false" data-bs-interval="false">
+        <div id="reiDoMorroCarrousel" class="carousel slide d-block col-11" data-bs-touch="false" data-bs-interval="false">
             <div class="carousel-inner" id="containerCarrousel">
 
             </div>
@@ -125,5 +128,6 @@
     <script src="./indexJs/reiDoMorro.js"></script>
     <script src="./indexJs/mapItems.js"></script>
     <script src="./indexJs/nav.js"></script>
+    <script src="./indexJs/inicialFrame.js"></script>
 </body>
 </html>

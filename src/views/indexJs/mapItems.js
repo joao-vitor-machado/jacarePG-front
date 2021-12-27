@@ -1,4 +1,4 @@
-function showReiDoMorro(mapaObj){
+function showMapItems(mapaObj){
     var blockedSecreen = document.createElement("div");
     blockedSecreen.className = "blocked-screen";
     body = document.querySelector("body");
@@ -97,7 +97,7 @@ for(const [index, mapa] of mapas.entries()){
     img.src = mapa.img;
     img.className = "img-fluid";
     div.appendChild(img);
-    img.addEventListener("click",()=>showReiDoMorro(mapa));
+    img.addEventListener("click",()=>showMapItems(mapa));
 
     let label = document.createElement("h4");
     label.textContent = mapa.nome;
