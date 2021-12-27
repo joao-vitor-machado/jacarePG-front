@@ -6,6 +6,7 @@
 
 body{
     width: 100%;
+    overflow-x: hidden;
 }
 
 * {
@@ -25,4 +26,37 @@ a {
 .titulo {
     font-size : var(--header2);
     text-align: center;
+}
+
+#nav{
+    
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 40vh;
+}
+
+#divNav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: inherit;
+}
+
+.navigator{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+}
+
+#backgroundLine{
+    height: 50vh;
+    position: fixed;
+    right: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -20;
+    background-color: white;
+    width: 2px;
 }

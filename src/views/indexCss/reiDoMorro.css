@@ -1,5 +1,5 @@
 #rei-do-morro{
-    height: 100vh;
+    height: 105vh;
     background-image: url(../shared/images/bg_swamp.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,14 +33,14 @@
 }
 
 .carousel-control-prev{
-    min-height: 70vh;
+    min-height: 75vh;
     display: flex;
     align-items: center;
     max-width: 5vw;
 }
 
 .carousel-control-next{
-    min-height: 70vh;
+    min-height: 75vh;
     display: flex;
     align-items: center;
     max-width: 5vw;

@@ -14,14 +14,22 @@
 
     <title>JacarePG</title>
 </head>
-<body>
-    
+<body data-bs-spy="scroll" data-bs-target="#nav" data-bs-offset="0" tabindex="0">
+    <nav id="nav" class="navbar">
+        <div id="divNav">
+        <a href="#inicial"><div class="navigator" id="nav1"></div></a>
+        <a href="#experienteMagnata"><div class="navigator" id="nav2"></div></a>
+        <a href="#rei-do-morro"><div class="navigator" id="nav3"></div></a>
+        <a href="#mapItems"><div class="navigator" id="nav4"></div></a>
+        </div>
+        <div id="backgroundLine"></div>
+    </nav>
     <div class="container-fluid status-screen">
 
         <div class="container-fluid bem-vindos">
             <h3>seja bem vindo, fulano de tal</h3>
         </div>
-        <div class="container conteudo">
+        <div class="container conteudo" id="inicial">
             
             <div class="col-5 buttons">
                 <button class="status-page-button btn">
@@ -52,7 +60,7 @@
 
     <!-- EXPERIENTE E MAGNATA -->
 
-    <div class="container-fluid experiente-magnata-screen">
+    <div class="container-fluid experiente-magnata-screen" id="experienteMagnata">
         <div class="container-fluid images-div">
             
             <div class="img-label" id="magnata">
@@ -75,9 +83,7 @@
 
         <div id="reiDoMorroCarrousel" class="carousel slide w-100 d-block" data-bs-touch="false" data-bs-interval="false">
             <div class="carousel-inner" id="containerCarrousel">
-              
-              
-              
+
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#reiDoMorroCarrousel" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -95,15 +101,27 @@
     </div>
 
     <!-- MAP ITEMS -->
-    <div class="container-fluid map-items-screen">
+    <div class="container-fluid map-items-screen" id="mapItems">
         <h1>MAP ITEMS</h1>
-        <div class="container-fluid" id="content-map-items">
+        <div id="mapItemsCarousel" class="carousel slide w-100 d-block" data-bs-touch="false" data-bs-interval="false">
+            <div class="carousel-inner" id="containerCarrouselMapItems">
 
-        </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mapItemsCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mapItemsCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </div>
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="./indexJs/reiDoMorro.js"></script>
+    <script src="./indexJs/mapItems.js"></script>
+    <script src="./indexJs/nav.js"></script>
 </body>
 </html>
