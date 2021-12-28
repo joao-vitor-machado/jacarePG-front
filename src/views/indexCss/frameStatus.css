@@ -1,5 +1,5 @@
 
-:root{
+ :root{
     --green: #026D2D;
 }
 
@@ -65,6 +65,8 @@
 .novidades-content{
     height: 70vh;
     background-color: rgba(0, 0, 0, 0.9);
+    overflow-y: scroll;
+    text-align: right;
 }
 
 .label-jogar{
@@ -102,4 +104,167 @@
 #buttonsDiv{
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width: 767px ) {
+
+    .icon{
+        height: 3em;
+    }
+    
+    .status-screen{
+        background-position: center;
+    }
+    
+    .conteudo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* width: fit-content; */
+        
+    }
+    
+    .bem-vindos{
+        display: none;
+    }
+
+    #buttonsDiv{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+    
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 20em;
+    }
+
+    .status-page-button{
+        width: 80vw;
+    }
+    
+    .novidades{
+        width: fit-content;
+        margin-top: 2em;
+    }
+    
+    .novidades-content{
+        height: 20vh;
+        width: 80vw;
+    }
+    
+    .label-jogar{
+        font-size: x-small;
+    }
+    
+    .field-jogar{
+        width: 80vw;
+    }
+    
+    .field-jogar:placeholder-shown{
+        font-size: 110%;   
+    }
+    
+    .button-jogar{   
+        height: 10vh;
+    }
+
+}
+
+@media (min-width: 480 ) {
+    
+}
+
+@media (min-width: 576px ) {
+
+}
+
+@media (min-width: 768px ) {
+
+    .bem-vindos{
+        width: 100vw;
+    }
+
+    .bem-vindos h3{
+        font-size: larger;
+    }
+
+    .icon{
+        height: 3em;
+    }
+    
+    .status-screen{
+        background-position: center;
+        padding-right: 10vw;
+    }
+    
+    .conteudo{
+        align-items: center;
+        justify-content: space-around;
+        /* width: fit-content; */
+    }
+
+
+    #buttonsDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* width: 50vw; */
+    }
+    
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 20em;
+    }
+
+    .status-page-button{
+        width: 40vw;
+    }
+    
+    .novidades{
+        width: fit-content;
+        margin-top: 2em;
+    }
+    
+    .novidades-content{
+        height: 60vh;
+        width: 40vw;
+        overflow-y: scroll;
+    }
+    
+    .label-jogar{
+        font-size: 80%;
+    }
+    
+    .field-jogar{
+        width: 40vw;
+    }
+    
+    .field-jogar:placeholder-shown{
+        font-size: 110%;   
+    }
+    
+    .button-jogar{   
+        height: 10vh;
+        width: 40vw;
+    }
+    
+}
+
+@media (min-width: 992px ) {
+    
+}
+
+@media (min-width: 1200px ) {
+    
+}
+
+@media (min-width: 1400px ) {
+    
 }
