@@ -3,7 +3,7 @@
     
         let imgsDiv = document.querySelector(".images-div");
         imgsDiv.id = "carouselExpMag";
-        imgsDiv.classList.add("carousel", "slide", "d-block", "col-12");
+        imgsDiv.classList.add("carousel", "slide", "d-block", "w-100");
     
         let innerCarousel = document.createElement("div");
         innerCarousel.classList.add("carousel-inner");

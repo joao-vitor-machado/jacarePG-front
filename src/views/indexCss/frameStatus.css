@@ -17,7 +17,7 @@
 .conteudo{
     display: flex;
     justify-content:space-between;
-    padding-top: 3em;
+    padding: 4em;
     
 }
 
@@ -106,7 +106,7 @@
     flex-direction: column;
 }
 
-@media (max-width: 767px ) {
+@media (max-width: 768px ) {
 
     .icon{
         height: 3em;
@@ -120,6 +120,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        
         /* width: fit-content; */
         
     }
@@ -182,83 +183,14 @@
 
 }
 
-@media (min-width: 768px ) {
+/*  */
 
-    .bem-vindos{
-        width: 100vw;
-    }
 
-    .bem-vindos h3{
-        font-size: larger;
-    }
 
-    .icon{
-        height: 3em;
-    }
-    
-    .status-screen{
-        background-position: center;
-        padding-right: 10vw;
-    }
-    
+@media (max-width: 992px ) {
     .conteudo{
-        align-items: center;
-        justify-content: space-around;
-        /* width: fit-content; */
+        padding: 4em;
     }
-
-
-    #buttonsDiv{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        /* width: 50vw; */
-    }
-    
-    .buttons{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        height: 20em;
-    }
-
-    .status-page-button{
-        width: 40vw;
-    }
-    
-    .novidades{
-        width: fit-content;
-        margin-top: 2em;
-    }
-    
-    .novidades-content{
-        height: 60vh;
-        width: 40vw;
-        overflow-y: scroll;
-    }
-    
-    .label-jogar{
-        font-size: 80%;
-    }
-    
-    .field-jogar{
-        width: 40vw;
-    }
-    
-    .field-jogar:placeholder-shown{
-        font-size: 110%;   
-    }
-    
-    .button-jogar{   
-        height: 10vh;
-        width: 40vw;
-    }
-    
-}
-
-@media (min-width: 992px ) {
-    
 }
 
 @media (min-width: 1200px ) {

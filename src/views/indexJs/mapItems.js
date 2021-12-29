@@ -79,7 +79,7 @@ divMapsMapItems.className = "content-map-items container";
 carrouselItem.appendChild(divMapsMapItems);
         
 for(const [index, mapa] of mapas.entries()){
-    if((index % (window.innerWidth > 768 ? 6 : 4) == 0) && index != 0){
+    if((index % (window.innerWidth > 769 ? 6 : 4) == 0) && index != 0){
         carrouselItem = document.createElement("div");
         carrouselItem.classList.add("carousel-item");
         containerCarrouselMapItems.appendChild(carrouselItem);

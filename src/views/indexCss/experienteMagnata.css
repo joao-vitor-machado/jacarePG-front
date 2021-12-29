@@ -8,17 +8,17 @@
     color: white;
 }
 
-.images-div{
+.experiente-magnata-screen .images-div{
     display: flex;
     justify-content: space-around;
 }
 
-.images-div img{
+.experiente-magnata-screen .images-div img{
     height: 70vh;
     max-width: 40vw;
 }
 
-.img-label{
+.experiente-magnata-screen .img-label{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,7 +41,7 @@
     
 }
 
-.img-croc-magexp{
+.experiente-magnata-screen .img-croc-magexp{
     width: 100%;
 }
 
@@ -59,11 +59,11 @@
     
 }
 
-@media (max-width: 768px ) {
-    /* .img-label img{
+@media (max-width: 767px ) {
+    .experiente-magnata-screen .img-label img{
         height: 70vh;
         min-width: 80vw;
-    } */
+    }
 }
 
 @media (max-width: 992px ) {
