@@ -100,7 +100,39 @@
     
 }
 
-@media (min-width: 768px ) {
+@media (max-width: 768px ) {
+    .content-rei-do-morro{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .content-rei-do-morro img{
+        max-height: 20vh;
+        min-height: 20vh;
+        width: 30vw;
+    }
+
+    .carousel-control-prev{
+        min-height: 60vh;
+       
+    }
+    
+    .carousel-control-next{
+        min-height: 60vh;
+       
+    }
+
+    #rei-do-morro h3{
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .img-label h4{
+        font-size: 1em;
+    }
+
+    .items-div h3{
+        font-size: 1em;
+    }
     
 }
 

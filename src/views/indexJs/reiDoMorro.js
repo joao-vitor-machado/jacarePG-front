@@ -92,7 +92,7 @@ divMaps.className = "content-rei-do-morro container";
 carrouselItem.appendChild(divMaps);
         
 for(const [index, mapa] of mapas.entries()){
-    if((index % 6 == 0) && index != 0){
+    if((index % (window.innerWidth > 768 ? 6 : 4) == 0) && index != 0){
         carrouselItem = document.createElement("div");
         carrouselItem.classList.add("carousel-item");
         containerCarrousel.appendChild(carrouselItem);

@@ -1,7 +1,5 @@
 
     if(window.innerWidth < 768){
-
-        console.log(window.innerWidth)
     
         let imgsDiv = document.querySelector(".images-div");
         imgsDiv.id = "carouselExpMag";
